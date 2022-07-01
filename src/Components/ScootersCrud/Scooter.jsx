@@ -1,4 +1,4 @@
-function Scooter({scooter,}) {
+function Scooter({scooter}) {
 
 
     
@@ -11,7 +11,7 @@ function Scooter({scooter,}) {
          <li className="list-group-item">
         <div className="item">
           <div className="content">
-              <b>{scooter.regCode}</b>
+              <b>{scooter.registrationCode}</b>
               <span></span>
               <i>{scooter.travelledDistance}</i>
               </div>

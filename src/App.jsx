@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react"
+import './App.scss';
 import ScootersContext from "./Components/ScootersCrud/ScootersContext";
 import axios from 'axios'
 import Create from "./Components/ScootersCrud/Create";
